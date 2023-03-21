@@ -1,0 +1,40 @@
+"ID","Title","Assigned To","Automation Type","Case ID","Comment","Defects","Elapsed","Estimate","Expected Result","Forecast","Goals","In Progress","Mission","Plan","Plan ID","Preconditions","Priority","References","Run","Run Configuration","Run ID","Section","Section Depth","Section Description","Section Hierarchy","Status","Steps","Steps","Steps","Steps (Actual Result)","Steps (Additional Info)","Steps (Expected Result)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Status)","Steps (Step)","Steps (Step)","Template","Tested By","Tested On","Type","Version"
+"T1","user registration","Muhammad Juldan Naufal"," None","C1","success as expected","","","","Registration successfully, and the user will be redirect to the login page","","","","","","","1. The user's device is connected to the internet
+2. User is already on the registration page
+","Critical","","Test Run 3/20/2023","","R1","Test Cases","0","","Test Cases","Passed","1. User access https:https://alta-shop.vercel.app/
+2. User click icon log-in
+3. User click text 'Register'
+4. User fill the form with valid data
+5. User clik button 'Register
+
+","","","","","","","","","","","","Test Case (Text)","Muhammad Juldan Naufal","3/21/2023 3:30 PM","Functional",""
+"T3","User Login","Muhammad Juldan Naufal"," None","C2","","","","","Login successfully and the user will be redirect to the home page","","","","","","","1. User has registered an account
+2. The user's device is connected to the internet
+3. User is already on the login page
+","Critical","","Test Run 3/20/2023","","R1","Test Cases","0","","Test Cases","Passed","1. User access https:https://alta-shop.vercel.app/
+2. User click icon log-in
+3. User fill email and password correctly
+4. User click button 'Login'
+
+","","","","","","","","","","","","Test Case (Text)","Muhammad Juldan Naufal","3/21/2023 3:44 PM","Functional",""
+"T8","Add product into shopping cart","Muhammad Juldan Naufal"," None","C3","Product successfully added into shopping cart","","","","shopping cart filled by product currently added by user","","","","","","","1. User has login
+2. The user's device is connected to the internet
+3. User is already on the home page
+
+","High","","Test Run 3/20/2023","","R1","Test Cases","0","","Test Cases","Passed","1. User access https:https://alta-shop.vercel.app/
+2. User select product
+3. User click button 'Beli'
+4. User click icon 'shopping cart' 
+","","","","","","","","","","","","Test Case (Text)","Muhammad Juldan Naufal","3/21/2023 3:51 PM","Functional",""
+"T13","Checkout and payment","Muhammad Juldan Naufal"," None","C4","","","","","The product was successfully checked out and paid for, and the user will be redirect to transaction page","","","","","","","1. User has login
+2. The user's device is connected to the internet
+3. The user has selected the product he wants to buy
+
+","Critical","","Test Run 3/20/2023","","R1","Test Cases","0","","Test Cases","Passed","1. User access https:https://alta-shop.vercel.app/
+2. User click icon 'shopping cart'
+3. User click the quantity of the product
+4. User click button 'bayar'
+","","","","","","","","","","","","Test Case (Text)","Muhammad Juldan Naufal","3/21/2023 3:57 PM","Functional",""
+
+
+
